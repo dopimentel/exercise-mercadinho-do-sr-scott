@@ -14,7 +14,7 @@ export function updateItem <T>(array: T[], index: number, object: T): T[] {
   return array;
 }
 
-export function biuldCartItem({ name, price }: Drink | Food, quantity: number): CartItem {
+export function buildCartItem({ name, price }: Drink | Food, quantity: number): CartItem {
   return {
     name,
     price,
